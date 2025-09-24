@@ -13,7 +13,7 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "postbuild": "shx mv docs/.vitepress/dist ./dist",
-    "postaction": "shx mv docs/images ./",
+    "postaction": "shx mv docs/images ./dist",
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
