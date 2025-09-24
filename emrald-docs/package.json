@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "postbuild": "shx mv docs/.vitepress/dist ./dist && shx mv docs/images .",
+    "postbuild": "shx mv docs/.vitepress/dist ./dist",
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
